@@ -1,0 +1,104 @@
+{
+  "quiz": [
+    {
+      "question": "Dlaczego prędkość światła jest uważana za graniczną w fizyce?",
+      "answers": [
+        "Bo przekroczenie jej prowadziłoby do rozpadu cząstek",
+        "Bo jest stałą wpisaną w równania teorii względności",
+        "Bo światło jest najszybszym znanym zjawiskiem falowym",
+        "Bo zależy od masy obiektu"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Co oznacza pojęcie „czasoprzestrzeń”?",
+      "answers": [
+        "Połączenie przestrzeni i czasu w jedną strukturę",
+        "Miejsce, gdzie istnieją tylko czarne dziury",
+        "Przestrzeń, w której czas płynie wstecz",
+        "Sfera oddzielająca Wszechświat od pustki"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Dlaczego nic z masą spoczynkową nie może poruszać się z prędkością światła?",
+      "answers": [
+        "Bo traci wtedy energię",
+        "Bo wymagałoby to nieskończonej energii",
+        "Bo zmienia wtedy wymiar",
+        "Bo masa rośnie do zera"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Jak nazywa się zjawisko zakrzywiania światła przez grawitację?",
+      "answers": [
+        "Dyfrakcja",
+        "Soczewkowanie grawitacyjne",
+        "Polaryzacja",
+        "Refrakcja"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Co opisuje równanie E = mc²?",
+      "answers": [
+        "Zależność energii od pola magnetycznego",
+        "Zależność masy od prędkości orbitalnej",
+        "Równoważność masy i energii",
+        "Prędkość ciał w polu elektrycznym"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Jakie cząstki są nośnikami oddziaływania elektromagnetycznego?",
+      "answers": [
+        "Gluony",
+        "Fotony",
+        "Neutrina",
+        "Kwarki"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Jak nazywa się najmniejsza możliwa jednostka czasu według niektórych teorii kwantowych?",
+      "answers": [
+        "Sekunda Plancka",
+        "Czas Heisenberga",
+        "Moment Kwantowy",
+        "Kwant Newtona"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Co jest główną przyczyną rozszerzania się Wszechświata?",
+      "answers": [
+        "Oddziaływania elektromagnetyczne",
+        "Energia próżni (ciemna energia)",
+        "Odrzucanie się galaktyk",
+        "Zmiana stałej grawitacyjnej"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Co oznacza termin „superpozycja kwantowa”?",
+      "answers": [
+        "Cząstka jest jednocześnie w wielu stanach",
+        "Cząstka dzieli się na dwa obiekty",
+        "Cząstka przestaje istnieć podczas pomiaru",
+        "Cząstka zmienia spin na przeciwny"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jakie zjawisko potwierdziło falową naturę elektronu?",
+      "answers": [
+        "Zjawisko fotoelektryczne",
+        "Podwójna szczelina",
+        "Rozpad beta",
+        "Efekt Dopplera"
+      ],
+      "correct": 1
+    }
+  ]
+}

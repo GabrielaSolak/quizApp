@@ -1,0 +1,72 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QuizApp.MainPage"
+             BackgroundColor="White">
+
+    <Grid>
+
+        <!-- OBRAZ TŁA ZMIENIANY W C# -->
+        <Image x:Name="BackgroundImage"
+               Source="player1_bg.png"
+               Aspect="AspectFill"
+               ZIndex="0" />
+
+        <ScrollView ZIndex="1">
+            <VerticalStackLayout Padding="20" Spacing="20">
+
+                <Image Source="....png"
+                       WidthRequest="130"
+                       HeightRequest="130"
+                       HorizontalOptions="Center"/>
+
+                <Frame BackgroundColor="White"
+                       CornerRadius="16"
+                       Padding="15"
+                       Opacity="0.92"
+                       HasShadow="True">
+
+                    <Label x:Name="QuestionLabel"
+                           FontSize="22"
+                           FontAttributes="Bold"
+                           TextColor="#7E34F4"
+                           HorizontalTextAlignment="Center"/>
+                </Frame>
+
+                <VerticalStackLayout Spacing="15">
+
+                    <Button x:Name="BtnA" HeightRequest="55" CornerRadius="16"
+                            BackgroundColor="White" TextColor="#7E34F4"
+                            Clicked="AnswerClicked"/>
+
+                    <Button x:Name="BtnB" HeightRequest="55" CornerRadius="16"
+                            BackgroundColor="White" TextColor="#7E34F4"
+                            Clicked="AnswerClicked"/>
+
+                    <Button x:Name="BtnC" HeightRequest="55" CornerRadius="16"
+                            BackgroundColor="White" TextColor="#7E34F4"
+                            Clicked="AnswerClicked"/>
+
+                    <Button x:Name="BtnD" HeightRequest="55" CornerRadius="16"
+                            BackgroundColor="White" TextColor="#7E34F4"
+                            Clicked="AnswerClicked"/>
+                </VerticalStackLayout>
+
+                <Label x:Name="ScoreLabel"
+                       Text="Punkty: 0"
+                       FontSize="20"
+                       TextColor="White"
+                       HorizontalOptions="Center"/>
+
+                <Button Text="NEXT"
+                        HeightRequest="60"
+                        CornerRadius="18"
+                        BackgroundColor="White"
+                        TextColor="#7E34F4"
+                        FontSize="20"
+                        Clicked="NextClicked"/>
+
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>
