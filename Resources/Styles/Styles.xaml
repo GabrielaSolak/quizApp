@@ -1,0 +1,21 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+
+    <Style x:Key="MainButtonStyle" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="White"/>
+        <Setter Property="TextColor" Value="#7E34F4"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="CornerRadius" Value="18"/>
+        <Setter Property="HeightRequest" Value="65"/>
+        <Setter Property="Shadow">
+            <Setter.Value>
+                <Shadow Brush="Black"
+                        Opacity="0.25"
+                        Offset="0,4"
+                        Radius="12"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>
