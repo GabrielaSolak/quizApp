@@ -1,0 +1,51 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QuizApp.MainPage"
+             BackgroundColor="#F5F3FA">
+
+    <VerticalStackLayout Spacing="0">
+
+        <!-- ======== GÓRNY PANEL ======== -->
+        <Grid HeightRequest="300">
+            <Grid.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                    <GradientStop Color="#B76BFF" Offset="0.0"/>
+                    <GradientStop Color="#9A52F4" Offset="1.0"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+
+            <!-- Efekty okręgów -->
+            <Grid>
+                <Ellipse Fill="#C88DFF" Opacity="0.25"
+                         WidthRequest="220" HeightRequest="220"
+                         TranslationX="40" TranslationY="-20" />
+                <Ellipse Fill="#C88DFF" Opacity="0.25"
+                         WidthRequest="140" HeightRequest="140"
+                         TranslationX="-120" TranslationY="40" />
+                <Ellipse Fill="#C88DFF" Opacity="0.25"
+                         WidthRequest="60" HeightRequest="60"
+                         TranslationX="100" TranslationY="80" />
+            </Grid>
+
+            <!-- LOGO / OBRAZEK -->
+            <Image Source="/mnt/data/8e932d75-069c-4e7d-8829-a812b7ecf597.png"
+                   WidthRequest="120" HeightRequest="120"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+        </Grid>
+
+        <!-- ======== PRZYCISKI ======== -->
+        <VerticalStackLayout Padding="20" Spacing="25"
+                             Margin="0,30,0,0">
+
+            <Button Text="START"
+                    Style="{StaticResource MainButtonStyle}" />
+
+            <Button Text="SETTINGS"
+                    Style="{StaticResource MainButtonStyle}" />
+
+        </VerticalStackLayout>
+
+    </VerticalStackLayout>
+
+</ContentPage>
